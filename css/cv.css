@@ -1,0 +1,161 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: 'Nunito', sans-serif;
+}
+
+body{
+   background-color: #73797a;
+}
+
+.main-content{
+   min-height: 100vh;
+   width: 65%;
+   margin: 2rem auto;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   border: 3px solid black;
+}
+
+.left-section{
+   grid-column: span 2;
+   height: 100%;
+   background-color: #5F7161;
+   border: 1px solid black;
+}
+.right-section{
+   grid-column: span 4;
+   background-color: #6D8B74;
+   height: 100%;
+}
+
+
+.left-content{
+   padding: 2rem 3rem;
+}
+.image-profile{
+   width: 100%;
+   border-bottom: 1px solid #D0C9C0;
+}
+
+.name-image{
+   width: 100%;
+   text-align: center;
+}
+.image-profile img{
+   width: 100%;
+   border-radius: 50%;
+   border: 2px solid #D0C9C0;
+   
+}
+
+.name{
+   font-size: 1.5rem;
+   color: rgba(33, 41, 35, 0.877);
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   padding: 1.2rem 0;
+}
+
+.career{
+   font-size: 1.2rem;
+   color: #b6b1ab;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   padding-bottom: 1rem;
+}
+
+.title-contact{
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: rgba(33, 41, 35, 0.877);
+   padding-top: 2rem;
+}
+
+.contact-info ul{
+   padding-top: 1rem;
+}
+
+.contact-info ul li{
+   padding: .4rem 0;
+   display: flex;
+   align-items: center;
+   color: #252e27;
+}
+
+
+.img-coding{
+ border-radius: 50%;
+}
+
+.about-me-title{
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: rgba(33, 41, 35, 0.877);
+   padding-top: 1.3rem;
+}
+
+.about-content p{
+   padding-top: 1rem ;
+}
+
+.about-content p{
+   padding: 1.4rem 0;
+   display: flex;
+   align-items: center;
+   color: #252e27;
+}
+.right-section ul li{
+   padding: .4rem 0;
+   display: flex;
+   align-items: center;
+   color: rgb(0, 0, 0);
+}
+ 
+.post-main-content{
+   padding: 2rem 3rem;
+   border-bottom: 2px solid #000000;
+}
+
+.right-title{
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding-bottom: 1.2rem;
+   color: rgba(33, 41, 35, 0.877);
+}
+
+.experience-content{
+   padding: 1rem 3rem;
+}
+
+.experience-content ul li{
+   font-size: 1rem;
+   letter-spacing: 1px;
+   padding-top: .4rem;
+}
+   
+.title-experience{
+   display: flex;
+   text-transform: uppercase;
+   padding: 1.4rem 0;
+
+}
+
+.title-p{
+   color: rgba(245, 245, 245, 0.61);
+}
+
+.experience-content{
+   padding: 2rem 3rem;
+   border-bottom: 2px solid #000000;
+}
+
+.hobby-content{
+   padding: 2rem 3rem;
+}
